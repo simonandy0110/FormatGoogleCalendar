@@ -1,28 +1,28 @@
 @font-face {
     font-family: 'Gotham';
-    src: URL('fonts/Gotham-Medium.otf') format('opentype');
+    src: URL('/fonts/Gotham-Medium.otf') format('opentype');
     /**font-weight: medium;**/
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: URL('fonts/Gotham-Bold.otf') format('opentype');
+    src: URL('/fonts/Gotham-Bold.otf') format('opentype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Gotham Book';
-    src: URL('fonts/Gotham-Book.otf') format('opentype');
+    src: URL('/fonts/Gotham-Book.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham Black';
-    src: URL('fonts/Gotham-Black.otf') format('opentype');
+    src: URL('/fonts/Gotham-Black.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Alternate Gothic';
-    src: URL('fonts/alternate-gothic-no3-d.ttf') format('truetype');
+    src: URL('/fonts/alternate-gothic-no3-d.ttf') format('truetype');
 }
 
 @font-face {
