@@ -78,12 +78,12 @@ p {
 }
 
 a{
-    color:#22589B; 
-    text-decoration: underline;
-    text-decoration-color: #22589B;
-}
-a:hover{
     color:#2D75CD; 
     text-decoration: underline;
     text-decoration-color: #2D75CD;
+}
+a:hover{
+    color:#38aae1; 
+    text-decoration: underline;
+    text-decoration-color: #38aae1;
 }
