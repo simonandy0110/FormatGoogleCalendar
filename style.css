@@ -1,3 +1,49 @@
+h1 {
+    color:#283351; 
+    font-family:"Alternate Gothic","Impact",sans-serif;
+    font-size: 48px;
+    text-align:center; 
+}
+
+h2 {
+    color:#283351; 
+    font-family:"Sentinel Italic","Georgia",serif;
+    font-size: 36px;
+    text-align:center; 
+}
+
+p {
+    color:#283351; 
+    text-align:left; 
+    font-family:"Gotham","Trebuchet MS",sans-serif;
+    font-size: 16px;
+}
+small {
+    color:#283351; 
+    text-align:left; 
+    font-family:"Gotham Book","Trebuchet MS",sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+a{
+    color:#2D75CD; 
+    text-decoration: underline;
+    text-decoration-color: #2D75CD;
+}
+a:hover{
+    color:#38aae1; 
+    text-decoration: underline;
+    text-decoration-color: #38aae1;
+}
+
+.header {
+    background-color:#99d8f2;
+}
+.subHeader {
+    background-color:#cbccd1;
+}
+
 @font-face {
     font-family: 'Gotham Medium';
     src: URL('/fonts/Gotham-Medium.ttf') format('truetype');
@@ -63,27 +109,3 @@ body{
     font-size: 16px;
 }
 
-h, h2 {
-    color:#283351; 
-    font-family:"Alternate Gothic","Impact",sans-serif;
-    font-size: 48px;
-    text-align:center; 
-}
-
-p {
-    color:#283351; 
-    text-align:left; 
-    font-family:"Gotham","Trebuchet MS",sans-serif;
-    font-size: 16px;
-}
-
-a{
-    color:#2D75CD; 
-    text-decoration: underline;
-    text-decoration-color: #2D75CD;
-}
-a:hover{
-    color:#38aae1; 
-    text-decoration: underline;
-    text-decoration-color: #38aae1;
-}
