@@ -51,8 +51,22 @@ a:hover{
     background-color:#99d8f2;
 }
 .subHeader {
+    background-color:#ffffff;
+    text-align: left;
+}
+
+.eventBox {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color:#cbccd1;
 }
+
+.eventList {
+    list-style-type: none;
+}
+
 
 @font-face {
     font-family: 'Gotham Medium';
