@@ -1,6 +1,5 @@
 body{
-    background-color:#ffffff;
-    background-attachment:fixed;
+    background-color:transparent;
     color:#283351; 
     text-align:left; 
     font-family:"Gotham","Trebuchet MS",sans-serif;
@@ -37,30 +36,31 @@ small {
 }
 
 a{
+    color:#003980; 
+    text-decoration: underline;
+    text-decoration-color: #003980;
+}
+a:hover{
     color:#2D75CD; 
     text-decoration: underline;
     text-decoration-color: #2D75CD;
-}
-a:hover{
-    color:#38aae1; 
-    text-decoration: underline;
-    text-decoration-color: #38aae1;
 }
 
 .header {
     background-color:#99d8f2;
 }
 .subHeader {
-    background-color:#ffffff;
-    text-align: left;
+    background-color: transparent;
 }
 
 .eventBox {
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color:#cbccd1;
+    background-color:#99d8f2;
+    border-radius: 15px;
+    align-self: center;
 }
 
 .eventList {
