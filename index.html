@@ -11,10 +11,11 @@
   </head>
   <body>
     <div id="CalendarFrame">
-      <ul id="events-upcoming" class="upcomingEvents eventList">
+      <ul id="events-upcoming" class="upcomingEvents">
       </ul>
-      <ul id="events-past" class="eventList">
+      <ul id="events-past" class="pastEvents">
       </ul>
+      
       <script src="dist/format-google-calendar.min.js"></script>
       <script>
         formatGoogleCalendar.init({
@@ -28,9 +29,9 @@
           itemsTagName: 'li',
           upcomingSelector: '#events-upcoming',
           pastSelector: '#events-past',
-          upcomingHeading: '<h2 class="subHeader">Upcoming events</h2>',
-          pastHeading: '<h2 class="subHeader">Past events</h2>',
-          format: ['<div class="eventBox"><b><i>', '*date*', '</i> &mdash; ', '*summary*', '</b><br>' , '*description*', '<br><small>', '*location*', '</small><br></div>',],
+          upcomingHeading: '<h2 class="subheader">Upcoming Events</h2></div>',
+          pastHeading: '<h2 class="subheader">Past Events</h2>',
+          format: ['<div class="eventBox"><div class="infoboxTop"><span class="eventDate">', '*date*', '</span><br><span class="eventSummary">', '*summary*', '</span></div><div class="infoboxBottom"><span class="eventDescription">' , '*description*', '</span><br><span class="eventLocation">', '*location*', '</span><br></div></div>',],
           timeMin: '2023-01-01T10:00:00-07:00',
           timeMax: '2038-01-01T10:00:00-07:00'
         });

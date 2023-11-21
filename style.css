@@ -2,7 +2,7 @@ body{
     background-color:transparent;
     color:#283351; 
     text-align:left; 
-    font-family:"Gotham","Trebuchet MS",sans-serif;
+    font-family:"Gotham Medium","Trebuchet MS",sans-serif;
     font-size: 16px;
 }
 
@@ -15,17 +15,23 @@ h1 {
 
 h2 {
     color:#283351; 
-    font-family:"Sentinel Italic","Georgia",serif;
-    font-size: 36px;
-    text-align:center; 
-    font-style: italic;
+    font-family:"Alternate Gothic","Impact",sans-serif;
+    font-size: 48px;
+    text-align:left; 
 }
+.subheader{
+    margin-left:15%;
+    margin-right:15%;
+    text-transform: uppercase;
+}
+
 
 p {
     color:#283351; 
     text-align:left; 
-    font-family:"Gotham","Trebuchet MS",sans-serif;
     font-size: 16px;
+    font-family:"Gotham Book","Trebuchet MS",sans-serif;
+    font-weight: lighter;
 }
 small {
     color:#283351; 
@@ -46,11 +52,8 @@ a:hover{
     text-decoration-color: #2D75CD;
 }
 
-.header {
-    background-color:#99d8f2;
-}
-.subHeader {
-    background-color: transparent;
+ul {
+    list-style-type: none;
 }
 
 .eventBox {
@@ -58,14 +61,49 @@ a:hover{
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color:#99d8f2;
     border-radius: 15px;
     align-self: center;
+    box-shadow: 0px 0px 4px 1px rgba(40, 51, 81, .4);
 }
 
-.eventList {
-    list-style-type: none;
+.upcomingEvents .eventBox {
+    background-color:rgba(153, 216, 242, .7);
 }
+.pastEvents .eventBox {
+    background-color:rgba(203, 204, 209, .7);
+}
+.infoboxTop {
+    border-radius: 15px;
+    padding: 10px;
+}
+.upcomingEvents .infoboxTop {
+    background-color: rgba(153, 216, 242, 1);
+}
+.pastEvents .infoboxTop {
+    background-color: rgba(203, 204, 209, 1);
+}
+.infoboxBottom {
+    padding: 10px;
+}
+
+
+.eventTime {
+    font-size: 16px;
+}
+.eventSummary {
+    font-size: 24px;
+    font-family:"Gotham Black","Trebuchet MS",sans-serif;
+    font-weight: normal;
+}
+.eventDescription {
+    font-size: 16px;
+    font-family:"Gotham Book","Trebuchet MS",sans-serif;
+    font-weight: lighter;
+}
+.eventLocation {
+    font-size: 16px;
+}
+
 
 
 @font-face {
