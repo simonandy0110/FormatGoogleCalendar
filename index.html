@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
@@ -31,7 +31,7 @@
           pastSelector: '#events-past',
           upcomingHeading: '<h2 class="subheader">Upcoming Events</h2>',
           pastHeading: '<h2 class="subheader">Past Events</h2>',
-          format: ['<div class="eventBox"><div class="infoboxTop"><span class="eventDate">', '*date*', '</span><br><span class="eventSummary">', '*summary*', '</span></div><div class="infoboxBottom"><span class="eventDescription">' , '*description*', '</span><br><span class="eventLocation">', '*location*', '</span><br></div></div>',],
+          format: ['*date*', ': ', '*summary*', ' &mdash; ', '*description*', ' in ', '*location*'],
           timeMin: '2023-01-01T10:00:00-07:00',
           timeMax: '2038-01-01T10:00:00-07:00'
         });
